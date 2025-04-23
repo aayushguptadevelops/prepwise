@@ -1,8 +1,10 @@
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
-import { dummyInterviews } from "@/constants";
+
+import { Button } from "@/components/ui/button";
 import InterviewCard from "@/components/interview-card";
+
+import { dummyInterviews } from "@/constants";
 
 export default function Home() {
   return (
